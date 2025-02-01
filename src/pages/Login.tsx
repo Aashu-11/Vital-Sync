@@ -28,10 +28,10 @@ export default function Login({ onLogin }: LoginProps) { // Accept onLogin prop
     <motion.div 
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className="min-h-screen bg-violet-900 flex items-center justify-center p-4" // Remove gradient classes
+      className="min-h-screen bg-violet-900 flex items-center justify-center p-4" // Plain violet background
     >
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(17,24,39,0.7),rgba(17,24,39,0.9))]" />
+        <div className="absolute inset-0 bg-violet-900" /> // Plain violet background
         <FloatingElements />
       </div>
 
