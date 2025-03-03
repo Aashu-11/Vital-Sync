@@ -84,6 +84,10 @@ export default function Login({ onLogin }: LoginProps) { // Accept onLogin prop
             <Button type="submit" className="w-full">
               Sign In
             </Button>
+            <div className="text-white/70 text-center mt-4">
+              <p>Username: <strong>username</strong></p>
+              <p>Password: <strong>password</strong></p>
+            </div>
           </form>
         </div>
       </motion.div>
